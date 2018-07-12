@@ -40,6 +40,10 @@ func (p *Point) ScaleBy(factor float64) {
 	p.Y *= factor
 }
 
+func ScaleByStruct(factor float64) {
+	
+}
+
 // func (p Point) X() int {
 // 	return p.X
 // }
